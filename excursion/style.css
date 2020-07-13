@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.cta {
+    color: aquamarine;
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 42px;
+    color: white;
+    font-weight: 300;
+}
+
+.feature1 {
+    color: grey;
+    font-size: 21px;
+}
+
+.footer {
+    text-align: right;
+    color: white;
+}
