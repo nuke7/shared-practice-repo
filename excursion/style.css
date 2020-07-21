@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #000022;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
@@ -11,12 +11,12 @@ h1 {
 }
 
 .cta {
-    color: aquamarine;
+    color: #2233dd;
     font-size: 16px;
 }
 
 h2 {
-    font-size: 42px;
+    font-size: 44px;
     color: white;
     font-weight: 300;
 }
