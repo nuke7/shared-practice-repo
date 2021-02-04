@@ -1,0 +1,32 @@
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+.card {
+    display: inline-block;
+    max-width: 220px;
+    margin: 1rem;
+}
+.card-img-top {
+    object-fit: cover;
+    width: height;
+    border-radius: 100%;
+    padding: 1rem;
+}
+
+
+@mixin responsive-box($height){
+    position: relative;
+    &:before{
+      content: '';
+      display: block;
+      padding-top: $height;
+    }
+  }
+  
+  .box{
+    @include responsive-box(100%);
+    /*For the box appearance*/
+    background: #222;
+    color: #fff;
+    width: 100px;
+  }
